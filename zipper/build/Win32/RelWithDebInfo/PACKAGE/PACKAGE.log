@@ -1,0 +1,23 @@
+﻿  CPack: Create package using NSIS
+  CPack: Install projects
+  CPack: - Install project: zipper [RelWithDebInfo]
+  CMake Error at D:/zipper/build/cmake_install.cmake:102 (message):
+    ABSOLUTE path INSTALL DESTINATION forbidden (by caller): C:/Program Files
+    (x86)/zipper/share/pkgconfig/zipper.pc
+  
+  
+EXEC : CPack error : Error when generating package: Zipper
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: The command "setlocal
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: cd D:\zipper\build
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: D:
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: "C:\Program Files (x86)\CMake\bin\cpack.exe" -C RelWithDebInfo --config ./CPackConfig.cmake
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: :cmEnd
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: :cmErrorLevel
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: exit /b %1
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: :cmDone
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: :VCEnd" exited with code 1.

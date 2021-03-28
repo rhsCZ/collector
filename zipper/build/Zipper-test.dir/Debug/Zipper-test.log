@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/zipper/CMakeLists.txt
+  file_zip_test.cpp
+  main.cpp
+  memory_zip_test.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Zipper-test.vcxproj -> D:\zipper\build\Debug\Zipper-test.exe

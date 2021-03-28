@@ -1,0 +1,12 @@
+﻿     Site: BARUSKA
+     Build name: Win32-MSBuild
+  Create new tag: 20210327-1408 - Continuous
+     Updating the repository: D:/zipper
+     Use GIT repository type
+     Old revision of repository is: 155e17347b64f7182985a2772ebb179184e4f518
+     New revision of repository is: 155e17347b64f7182985a2772ebb179184e4f518
+     Gathering version information (one . per revision):
+      
+     Found 1 locally modified files
+     There are modified or conflicting files in the repository
+  Building Custom Rule D:/zipper/CMakeLists.txt

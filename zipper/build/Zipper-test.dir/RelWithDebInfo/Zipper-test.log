@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/zipper/CMakeLists.txt
+  file_zip_test.cpp
+  main.cpp
+  memory_zip_test.cpp
+  Generating Code...
+  Zipper-test.vcxproj -> D:\zipper\build\RelWithDebInfo\Zipper-test.exe

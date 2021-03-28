@@ -1,0 +1,32 @@
+-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19042.
+-- Check for working C compiler: D:/Visual Studio/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x86/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- 
+----------------------------------------------------------------------
+Zipper version 1.0.2
+----------------------------------------------------------------------
+
+   Configured on host ''
+     host type                       = Windows
+     host operating system           = Windows 10.0.19042
+     host CPU architecture           = AMD64
+
+   General build flags:
+     CC                              = D:/Visual Studio/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x86/cl.exe
+     CXX                             = D:/Visual Studio/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x86/cl.exe
+     CPPFLAGS                        =  -D_CRT_SECURE_NO_WARNINGS
+     CFLAGS                          = /DWIN32 /D_WINDOWS /W3
+     CXXFLAGS                        = /DWIN32 /D_WINDOWS /W3 /GR /EHsc
+     LDFLAGS                         = /machine:X86
+
+   Zlib library configuration:
+     Zlib library                    = optimized;C:/Program Files (x86)/zlib/lib/zlib.lib;debug;C:/Program Files (x86)/zlib/lib/zlibd.lib
+     Zlib include dir                = C:/Program Files (x86)/zlib/include
+
+   Other configuration settings:
+     Installation $prefix            = C:/Program Files (x86)/zipper
+     
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/zipper/build

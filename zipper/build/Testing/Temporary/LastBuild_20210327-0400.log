@@ -1,0 +1,8 @@
+Microsoft (R) Build Engine verze 16.8.3+39993bd9d pro .NET Framework
+Copyright (C) Microsoft Corporation. Všechna práva vyhrazena.
+
+  Auto build dll exports
+  Zipper.vcxproj -> D:\zipper\build\Debug\Zipperd.dll
+  Zipper-static.vcxproj -> D:\zipper\build\Debug\Zipper-staticd.lib
+  staticZipper.vcxproj -> D:\zipper\build\Debug\staticZipperd.lib
+  Zipper-test.vcxproj -> D:\zipper\build\Debug\Zipper-test.exe

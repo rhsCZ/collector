@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-MSBuild"
+	BuildStamp="20210327-1408-Experimental"
+	Name="BARUSKA"
+	Generator="ctest-3.19.0-rc1"
+	CompilerName="D:/Visual Studio/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x86/cl.exe"
+	CompilerVersion="19.28.29337.0"
+	OSName="Windows"
+	Hostname="baruska"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19042)"
+	OSPlatform="x86"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="32733"
+	TotalPhysicalMemory="16349"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="3000"
+	>
+	<Build>
+		<StartDateTime>Mar 27 15:08 Stoedn[NON-UTF-8-BYTE-0xED] Evropa (bi?n[NON-UTF-8-BYTE-0xFD] eas)</StartDateTime>
+		<StartBuildTime>1616854125</StartBuildTime>
+		<BuildCommand>"C:\Program Files (x86)\CMake\bin\cmake.exe" --build . --config "RelWithDebInfo"</BuildCommand>
+		<Log Encoding="base64" Compression="bin/gzip"/>
+		<EndDateTime>Mar 27 15:08 Stoedn[NON-UTF-8-BYTE-0xED] Evropa (bi?n[NON-UTF-8-BYTE-0xFD] eas)</EndDateTime>
+		<EndBuildTime>1616854130</EndBuildTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Build>
+</Site>

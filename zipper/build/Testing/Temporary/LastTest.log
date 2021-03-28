@@ -1,0 +1,20 @@
+Start testing: Mar 27 15:41 Stoední Evropa (bi?ný eas)
+----------------------------------------------------------
+1/1 Testing: test_zipper_run
+1/1 Test: test_zipper_run
+Command: "D:/zipper/build/Debug/Zipper-test.exe"
+Directory: D:/zipper/build
+"test_zipper_run" start time: Mar 27 15:41 Stoední Evropa (bi?ný eas)
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Fail Reason:
+Required regular expression not found. Regex=[All tests passed
+]
+"test_zipper_run" end time: Mar 27 15:41 Stoední Evropa (bi?ný eas)
+"test_zipper_run" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 27 15:41 Stoední Evropa (bi?ný eas)

@@ -1,0 +1,29 @@
+--- Begin Cleanup ---
+--- End Cleanup ---
+"C:/Program Files/Git/cmd/git.exe" "rev-list" "-n" "1" "HEAD" "--"
+rl-out> 155e17347b64f7182985a2772ebb179184e4f518
+--- Begin Update ---
+"C:/Program Files/Git/cmd/git.exe" "fetch"
+"C:/Program Files/Git/cmd/git.exe" "rev-parse" "--git-dir"
+rev-parse-out> .git
+FETCH_HEAD> 155e17347b64f7182985a2772ebb179184e4f518		branch 'master' of https://github.com/sebastiandev/zipper
+"C:/Program Files/Git/cmd/git.exe" "reset" "--hard" "155e17347b64f7182985a2772ebb179184e4f518"
+reset-out> HEAD is now at 155e173 Add name change for UNIX only (#66)
+"C:/Program Files/Git/cmd/git.exe" "rev-parse" "--show-cdup"
+rev-parse-out> 
+"C:/Program Files/Git/cmd/git.exe" "--version"
+version-out> git version 2.26.2.windows.1
+"C:/Program Files/Git/cmd/git.exe" "submodule" "sync" "--recursive"
+submodule-out> Synchronizing submodule url for 'minizip'
+"C:/Program Files/Git/cmd/git.exe" "submodule" "update" "--recursive"
+--- End Update ---
+"C:/Program Files/Git/cmd/git.exe" "rev-list" "-n" "1" "HEAD" "--"
+rl-out> 155e17347b64f7182985a2772ebb179184e4f518
+--- Begin Revisions ---
+"C:/Program Files/Git/cmd/git.exe" "rev-list" "--reverse" "155e17347b64f7182985a2772ebb179184e4f518..155e17347b64f7182985a2772ebb179184e4f518" "--" | "C:/Program Files/Git/cmd/git.exe" "diff-tree" "--stdin" "--always" "-z" "-r" "--pretty=raw" "--encoding=utf-8"
+dt-out> 
+"C:/Program Files/Git/cmd/git.exe" "update-index" "--refresh"
+"C:/Program Files/Git/cmd/git.exe" "diff-index" "-z" "HEAD" "--"
+di-out> :160000 160000 7619140097aaba8bd49659cb9c4878c4b1dcac30 7619140097aaba8bd49659cb9c4878c4b1dcac30 M
+di-out> minizip
+--- End Revisions ---

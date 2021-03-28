@@ -1,0 +1,39 @@
+﻿     Site: BARUSKA
+     Build name: Win32-MSBuild
+  Create new tag: 20210327-1409 - Experimental
+  Configure project
+     Each . represents 1024 bytes of output
+      .. Size of output: 1K
+  Build project
+     Each symbol represents 1024 bytes of output.
+     '!' represents an error and '*' a warning.
+      . Size of output: 1K
+     0 Compiler errors
+     0 Compiler warnings
+  Test project D:/zipper/build
+      Start 1: test_zipper_run
+  1/1 Test #1: test_zipper_run ..................Exit code 0xc0000135
+  ***Exception:   0.74 sec
+  
+  0% tests passed, 1 tests failed out of 1
+  
+  Total Test time (real) =   0.75 sec
+  
+  The following tests FAILED:
+  	  1 - test_zipper_run (Exit code 0xc0000135
+  )
+  Performing coverage
+   Cannot find any coverage files. Ignoring Coverage request.
+  Submit files
+     SubmitURL: http://
+     Submit failed, waiting 5 seconds...
+     Retry submission: Attempt 1 of 3
+     Submit failed, waiting 5 seconds...
+     Retry submission: Attempt 2 of 3
+     Submit failed, waiting 5 seconds...
+     Retry submission: Attempt 3 of 3
+     Error when uploading file: D:/zipper/build/Testing/20210327-1409/Configure.xml
+     Error message was: 
+     Problems when submitting via HTTP
+  Errors while running CTest
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(238,5): error MSB8066: Custom build for 'D:\zipper\build\CMakeFiles\cf24d8040c49e5a4ed4d10bbb43c25e3\Experimental.rule' exited with code 72.

@@ -1,0 +1,20 @@
+^D:\ZIPPER\BUILD\CMAKEFILES\CF24D8040C49E5A4ED4D10BBB43C25E3\NIGHTLYMEMORYCHECK.RULE
+setlocal
+"C:\Program Files (x86)\CMake\bin\ctest.exe" -C MinSizeRel -D NightlyMemoryCheck
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ZIPPER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SD:/zipper -BD:/zipper/build --check-stamp-file D:/zipper/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,29 @@
+﻿  Building Custom Rule D:/zipper/CMakeLists.txt
+  CDirEntry.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  tools.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  unzipper.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  zipper.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  Generating Code...
+  aescrypt.c
+  aeskey.c
+  aestab.c
+  entropy.c
+  fileenc.c
+  hmac.c
+  prng.c
+  pwd2key.c
+  sha1.c
+  ioapi.c
+  ioapi_buf.c
+  ioapi_mem.c
+  iowin32.c
+  unzip.c
+  zip.c
+  Generating Code...
+  Auto build dll exports
+     Creating library D:/zipper/build/Release/Zipper.lib and object D:/zipper/build/Release/Zipper.exp
+  Zipper.vcxproj -> D:\zipper\build\Release\Zipper.dll

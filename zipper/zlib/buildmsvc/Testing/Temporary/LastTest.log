@@ -1,0 +1,26 @@
+Start testing: Mar 27 14:55 Stoední Evropa (bi?ný eas)
+----------------------------------------------------------
+1/1 Testing: example
+1/1 Test: example
+Command: "D:/zipper/zlib/buildmsvc/Debug/example.exe"
+Directory: D:/zipper/zlib/buildmsvc
+"example" start time: Mar 27 14:55 Stoední Evropa (bi?ný eas)
+Output:
+----------------------------------------------------------
+zlib version 1.2.11 = 0x12b0, compile flags = 0x55
+uncompress(): hello, hello!
+gzread(): hello, hello!
+gzgets() after gzseek:  hello!
+inflate(): hello, hello!
+large_inflate(): OK
+after inflateSync(): hello, hello!
+inflate with dictionary: hello, hello!
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"example" end time: Mar 27 14:55 Stoední Evropa (bi?ný eas)
+"example" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 27 14:55 Stoední Evropa (bi?ný eas)

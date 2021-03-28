@@ -1,0 +1,23 @@
+﻿  Test project D:/zipper/build
+      Start 1: test_zipper_run
+  1/1 Test #1: test_zipper_run ..................Exit code 0xc0000135
+  ***Exception:   0.08 sec
+  
+  0% tests passed, 1 tests failed out of 1
+  
+  Total Test time (real) =   0.08 sec
+  
+  The following tests FAILED:
+  	  1 - test_zipper_run (Exit code 0xc0000135
+  )
+  Errors while running CTest
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: The command "setlocal
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: "C:\Program Files (x86)\CMake\bin\ctest.exe" --force-new-ctest-process -C Debug
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: :cmEnd
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: :cmErrorLevel
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: exit /b %1
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: :cmDone
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(153,5): error MSB3073: :VCEnd" exited with code 8.

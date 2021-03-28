@@ -1,0 +1,8 @@
+D:/zipper/zlib/buildmsvc/CMakeFiles/zlib.dir
+D:/zipper/zlib/buildmsvc/CMakeFiles/zlibstatic.dir
+D:/zipper/zlib/buildmsvc/CMakeFiles/example.dir
+D:/zipper/zlib/buildmsvc/CMakeFiles/minigzip.dir
+D:/zipper/zlib/buildmsvc/CMakeFiles/INSTALL.dir
+D:/zipper/zlib/buildmsvc/CMakeFiles/RUN_TESTS.dir
+D:/zipper/zlib/buildmsvc/CMakeFiles/ALL_BUILD.dir
+D:/zipper/zlib/buildmsvc/CMakeFiles/ZERO_CHECK.dir

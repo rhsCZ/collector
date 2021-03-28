@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\zipper\zipper\CDirEntry.cpp">
+      <Filter>zipper</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\zipper\tools.cpp">
+      <Filter>zipper</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\zipper\unzipper.cpp">
+      <Filter>zipper</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\zipper\zipper.cpp">
+      <Filter>zipper</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\minizip\aes\aescrypt.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\minizip\aes\aeskey.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\minizip\aes\aestab.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\minizip\aes\entropy.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\minizip\aes\fileenc.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\minizip\aes\hmac.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\minizip\aes\prng.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\minizip\aes\pwd2key.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\minizip\aes\sha1.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\minizip\ioapi.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\minizip\ioapi_buf.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\minizip\ioapi_mem.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\minizip\iowin32.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\minizip\unzip.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\zipper\minizip\zip.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\zipper\zipper\CDirEntry.h">
+      <Filter>zipper</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\zipper\defs.h">
+      <Filter>zipper</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\zipper\tools.h">
+      <Filter>zipper</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\zipper\unzipper.h">
+      <Filter>zipper</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\zipper\zipper.h">
+      <Filter>zipper</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\aes\aes.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\aes\aes_via_ace.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\aes\aesopt.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\aes\aestab.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\aes\brg_endian.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\aes\brg_types.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\aes\entropy.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\aes\fileenc.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\aes\hmac.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\aes\prng.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\aes\pwd2key.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\aes\sha1.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\crypt.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\ioapi.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\ioapi_buf.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\ioapi_mem.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\iowin32.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\unzip.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\zipper\minizip\zip.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\zipper\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="minizip">
+      <UniqueIdentifier>{D00D6BE4-A704-3D4F-90F0-606E44B5B200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zipper">
+      <UniqueIdentifier>{A2601406-0394-39B4-9FFE-F416D6F99E3B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

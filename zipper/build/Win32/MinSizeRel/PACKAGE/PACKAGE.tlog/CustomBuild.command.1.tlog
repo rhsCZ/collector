@@ -1,0 +1,10 @@
+^D:\ZIPPER\BUILD\CMAKEFILES\CF24D8040C49E5A4ED4D10BBB43C25E3\PACKAGE_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

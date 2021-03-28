@@ -1,0 +1,9 @@
+Upload files:
+0	Update.xml
+1	Configure.xml
+2	Build.xml
+3	Done.xml
+	Upload file: D:/zipper/build/Testing/20210327-0400/Update.xml to BARUSKA___Win32-MSBuild___20210327-0400-Nightly___XML___Update.xml
+   Error when uploading file: D:/zipper/build/Testing/20210327-0400/Update.xml
+   Error message was: 
+   Problems when submitting via HTTP

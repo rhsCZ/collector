@@ -1,0 +1,29 @@
+﻿D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(37,5): warning MSB4211: The property "IntermediateOutputPath" is being set to a value for the first time, but it was already consumed at "D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (36,5)".
+D:\Visual Studio\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(340,5): warning MSB4211: The property "CleanFile" is being set to a value for the first time, but it was already consumed at "D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (36,5)".
+  Building Custom Rule D:/zipper/CMakeLists.txt
+  CDirEntry.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  tools.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  unzipper.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  zipper.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  Generating Code...
+  aescrypt.c
+  aeskey.c
+  aestab.c
+  entropy.c
+  fileenc.c
+  hmac.c
+  prng.c
+  pwd2key.c
+  sha1.c
+  ioapi.c
+  ioapi_buf.c
+  ioapi_mem.c
+  iowin32.c
+  unzip.c
+  zip.c
+  Generating Code...
+  staticZipper.vcxproj -> D:\zipper\build\Debug\staticZipperd.lib

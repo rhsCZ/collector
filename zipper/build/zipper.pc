@@ -1,0 +1,13 @@
+prefix=C:/Program Files (x86)/zipper
+exec_prefix=C:/Program Files (x86)/zipper
+libdir=C:/Program Files (x86)/zipper/lib
+includedir=C:/Program Files (x86)/zipper/include
+
+Name: zipper
+Description: C++ wrapper around minizip compression library 
+Version: 1.0.2
+
+
+Requires:
+Libs: -L${libdir} -lZipper 
+Cflags: -I${includedir}

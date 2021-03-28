@@ -1,0 +1,6 @@
+﻿  Microsoft (R) Build Engine verze 16.8.3+39993bd9d pro .NET Framework
+  Copyright (C) Microsoft Corporation. Všechna práva vyhrazena.
+  
+MSBUILD : error MSB1009: Soubor projektu neexistuje.
+  Přepínač: package_source
+D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(238,5): error MSB8066: Custom build for 'D:\zipper\build\CMakeFiles\cf24d8040c49e5a4ed4d10bbb43c25e3\dist.rule' exited with code 1.

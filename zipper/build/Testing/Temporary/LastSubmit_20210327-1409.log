@@ -1,0 +1,9 @@
+Upload files:
+0	Configure.xml
+1	Build.xml
+2	Test.xml
+3	Done.xml
+	Upload file: D:/zipper/build/Testing/20210327-1409/Configure.xml to BARUSKA___Win32-MSBuild___20210327-1409-Experimental___XML___Configure.xml
+   Error when uploading file: D:/zipper/build/Testing/20210327-1409/Configure.xml
+   Error message was: 
+   Problems when submitting via HTTP

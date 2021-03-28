@@ -1,0 +1,15 @@
+D:/zipper/build/CMakeFiles/staticZipper.dir
+D:/zipper/build/CMakeFiles/dist.dir
+D:/zipper/build/CMakeFiles/Experimental.dir
+D:/zipper/build/CMakeFiles/check.dir
+D:/zipper/build/CMakeFiles/PACKAGE.dir
+D:/zipper/build/CMakeFiles/Zipper.dir
+D:/zipper/build/CMakeFiles/INSTALL.dir
+D:/zipper/build/CMakeFiles/Zipper-static.dir
+D:/zipper/build/CMakeFiles/Continuous.dir
+D:/zipper/build/CMakeFiles/Nightly.dir
+D:/zipper/build/CMakeFiles/NightlyMemoryCheck.dir
+D:/zipper/build/CMakeFiles/Zipper-test.dir
+D:/zipper/build/CMakeFiles/RUN_TESTS.dir
+D:/zipper/build/CMakeFiles/ALL_BUILD.dir
+D:/zipper/build/CMakeFiles/ZERO_CHECK.dir

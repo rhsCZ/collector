@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-MSBuild"
+	BuildStamp="20210327-1408-Experimental"
+	Name="BARUSKA"
+	Generator="ctest-3.19.0-rc1"
+	CompilerName="D:/Visual Studio/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x86/cl.exe"
+	CompilerVersion="19.28.29337.0"
+	OSName="Windows"
+	Hostname="baruska"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19042)"
+	OSPlatform="x86"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="32733"
+	TotalPhysicalMemory="16349"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="3000"
+	>
+	<Testing>
+		<StartDateTime>Mar 27 15:08 Stoedn[NON-UTF-8-BYTE-0xED] Evropa (bi?n[NON-UTF-8-BYTE-0xFD] eas)</StartDateTime>
+		<StartTestTime>1616854130</StartTestTime>
+		<TestList>
+			<Test>./test_zipper_run</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>test_zipper_run</Name>
+			<Path>.</Path>
+			<FullName>./test_zipper_run</FullName>
+			<FullCommandLine>D:\zipper\build\RelWithDebInfo\Zipper-test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Exit code 0xc0000135
+</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>3221225781</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.132814</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Fail Reason">
+					<Value>Required regular expression not found. Regex=[All tests passed
+]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\zipper\build\RelWithDebInfo\Zipper-test.exe</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Mar 27 15:08 Stoedn[NON-UTF-8-BYTE-0xED] Evropa (bi?n[NON-UTF-8-BYTE-0xFD] eas)</EndDateTime>
+		<EndTestTime>1616854130</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

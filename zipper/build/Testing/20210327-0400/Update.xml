@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Update mode="Client" Generator="ctest-3.19.0-rc1">
+	<Site>BARUSKA</Site>
+	<BuildName>Win32-MSBuild</BuildName>
+	<BuildStamp>20210327-0400-Nightly</BuildStamp>
+	<StartDateTime>Mar 27 15:13 Stoedn[NON-UTF-8-BYTE-0xED] Evropa (bi?n[NON-UTF-8-BYTE-0xFD] eas)</StartDateTime>
+	<StartTime>1616854430</StartTime>
+	<UpdateCommand>"C:/Program Files/Git/cmd/git.exe" "fetch"</UpdateCommand>
+	<UpdateType>GIT</UpdateType>
+	<Revision>155e17347b64f7182985a2772ebb179184e4f518</Revision>
+	<Directory>
+		<Name></Name>
+		<Modified>
+			<File>minizip</File>
+			<Directory></Directory>
+			<FullName>minizip</FullName>
+			<CheckinDate>Unknown</CheckinDate>
+			<Author>Unknown</Author>
+			<Email></Email>
+			<Committer></Committer>
+			<CommitterEmail></CommitterEmail>
+			<CommitDate></CommitDate>
+			<Log></Log>
+			<Revision>Unknown</Revision>
+			<PriorRevision>155e17347b64f7182985a2772ebb179184e4f518</PriorRevision>
+		</Modified>
+	</Directory>
+	<EndDateTime>Mar 27 15:14 Stoedn[NON-UTF-8-BYTE-0xED] Evropa (bi?n[NON-UTF-8-BYTE-0xFD] eas)</EndDateTime>
+	<EndTime>1616854441</EndTime>
+	<ElapsedMinutes>0</ElapsedMinutes>
+	<UpdateReturnStatus>Update error: There are modified or conflicting files in the repository</UpdateReturnStatus>
+</Update>

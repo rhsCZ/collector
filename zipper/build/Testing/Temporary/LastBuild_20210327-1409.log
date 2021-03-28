@@ -1,0 +1,15 @@
+Microsoft (R) Build Engine verze 16.8.3+39993bd9d pro .NET Framework
+Copyright (C) Microsoft Corporation. Všechna práva vyhrazena.
+
+  Checking Build System
+  Building Custom Rule D:/zipper/CMakeLists.txt
+  Auto build dll exports
+     Creating library D:/zipper/build/Debug/Zipperd.lib and object D:/zipper/build/Debug/Zipperd.exp
+  Zipper.vcxproj -> D:\zipper\build\Debug\Zipperd.dll
+  Building Custom Rule D:/zipper/CMakeLists.txt
+  Zipper-static.vcxproj -> D:\zipper\build\Debug\Zipper-staticd.lib
+  Building Custom Rule D:/zipper/CMakeLists.txt
+  staticZipper.vcxproj -> D:\zipper\build\Debug\staticZipperd.lib
+  Building Custom Rule D:/zipper/CMakeLists.txt
+  Zipper-test.vcxproj -> D:\zipper\build\Debug\Zipper-test.exe
+  Building Custom Rule D:/zipper/CMakeLists.txt
