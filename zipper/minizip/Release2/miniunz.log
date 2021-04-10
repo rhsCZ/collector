@@ -1,0 +1,30 @@
+﻿  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  infback.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  trees.c
+  uncompr.c
+  zutil.c
+  aescrypt.c
+  aeskey.c
+  aestab.c
+  entropy.c
+  fileenc.c
+  hmac.c
+  prng.c
+  pwd2key.c
+  sha1.c
+  Kompilování...
+  ioapi.c
+  iowin32.c
+  miniunz.c
+  unzip.c
+  Vytváří se kód.
+  Previous IPDB not found, fall back to full compilation.
+  All 121 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Vytváření kódu se dokončilo.
+  miniunz.vcxproj -> D:\gdrive\github\collector\zipper\Release2\miniunz.exe

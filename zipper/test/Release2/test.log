@@ -1,0 +1,5 @@
+﻿  file_zip_test.cpp
+D:\gdrive\github\collector\zipper\test\file_zip_test.cpp(3,10): fatal error C1083: Nejde otevřít soubor zahrnout: zipper/zipper.h: No such file or directory
+  main.cpp
+  memory_zip_test.cpp
+D:\gdrive\github\collector\zipper\test\memory_zip_test.cpp(3,10): fatal error C1083: Nejde otevřít soubor zahrnout: zipper/zipper.h: No such file or directory

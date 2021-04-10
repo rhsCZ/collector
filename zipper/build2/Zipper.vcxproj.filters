@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\zipper\CDirEntry.cpp">
+      <Filter>zipper</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\zipper\tools.cpp">
+      <Filter>zipper</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\zipper\unzipper.cpp">
+      <Filter>zipper</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\zipper\zipper.cpp">
+      <Filter>zipper</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\aescrypt.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\aeskey.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\aestab.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\entropy.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\fileenc.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\hmac.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\prng.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\pwd2key.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\sha1.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\ioapi.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\ioapi_buf.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\ioapi_mem.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\iowin32.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\unzip.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\zip.c">
+      <Filter>minizip</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\zipper\CDirEntry.h">
+      <Filter>zipper</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\zipper\defs.h">
+      <Filter>zipper</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\zipper\tools.h">
+      <Filter>zipper</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\zipper\unzipper.h">
+      <Filter>zipper</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\zipper\zipper.h">
+      <Filter>zipper</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\aes.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\aes_via_ace.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\aesopt.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\aestab.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\brg_endian.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\brg_types.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\entropy.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\fileenc.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\hmac.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\prng.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\pwd2key.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\sha1.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\crypt.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\ioapi.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\ioapi_buf.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\ioapi_mem.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\iowin32.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\unzip.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\zip.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\gdrive\github\collector\zipper\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="minizip">
+      <UniqueIdentifier>{A4712B93-AA93-3B7F-84BC-D3896AE399E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zipper">
+      <UniqueIdentifier>{A6C9661C-4017-33F2-9BCC-0740478D2A05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

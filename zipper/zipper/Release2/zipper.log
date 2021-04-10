@@ -1,0 +1,10 @@
+﻿  ioapi.c
+  ioapi_buf.c
+  ioapi_mem.c
+  iowin32.c
+  unzip.c
+  zip.c
+  tools.cpp
+  unzipper.cpp
+  zipper.cpp
+  zipper.vcxproj -> D:\gdrive\github\collector\zipper\Release2\zipper.lib

@@ -8,14 +8,11 @@
 #include "collectorDlg.h"
 #include "afxdialogex.h"
 
+
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
-
 // Dialog colectDlg
-
-
-
 
 colectDlg::colectDlg(CWnd* pParent /*=nullptr*/)
 : CDialogEx(IDD_COLLECTOR_DIALOG, pParent)

@@ -1,0 +1,31 @@
+﻿D:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: Zprostředkující adresář (Release2\) obsahuje soubory sdílené z jiného projektu (miniunz.vcxproj). To může způsobit nesprávné chování při čištění a opětovném sestavení.
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  infback.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  trees.c
+  uncompr.c
+  zutil.c
+  aescrypt.c
+  aeskey.c
+  aestab.c
+  entropy.c
+  fileenc.c
+  hmac.c
+  prng.c
+  pwd2key.c
+  sha1.c
+  Kompilování...
+  ioapi.c
+  iowin32.c
+  minizip.c
+  zip.c
+  Vytváří se kód.
+  Previous IPDB not found, fall back to full compilation.
+  All 129 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Vytváření kódu se dokončilo.
+  minizip.vcxproj -> D:\gdrive\github\collector\zipper\Release2\minizip.exe

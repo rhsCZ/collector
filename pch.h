@@ -6,7 +6,7 @@
 
 #ifndef PCH_H
 #define PCH_H
-
+//#define _AFXDLL
 // sem přidejte hlavičky, které chcete předkompilovat
 #include "framework.h"
 #include <afxwin.h>

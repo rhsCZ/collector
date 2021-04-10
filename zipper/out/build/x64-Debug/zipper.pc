@@ -1,0 +1,13 @@
+prefix=D:/gdrive/github/collector/zipper/out/install/x64-Debug
+exec_prefix=D:/gdrive/github/collector/zipper/out/install/x64-Debug
+libdir=D:/gdrive/github/collector/zipper/out/install/x64-Debug/lib
+includedir=D:/gdrive/github/collector/zipper/out/install/x64-Debug/include
+
+Name: zipper
+Description: C++ wrapper around minizip compression library 
+Version: 1.0.2
+
+
+Requires:
+Libs: -L${libdir} -lZipper 
+Cflags: -I${includedir}

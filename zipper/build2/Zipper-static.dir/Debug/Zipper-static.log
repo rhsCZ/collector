@@ -1,0 +1,27 @@
+﻿  Building Custom Rule D:/gdrive/github/collector/zipper/CMakeLists.txt
+  CDirEntry.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  tools.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  unzipper.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  zipper.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  Generování kódu...
+  aescrypt.c
+  aeskey.c
+  aestab.c
+  entropy.c
+  fileenc.c
+  hmac.c
+  prng.c
+  pwd2key.c
+  sha1.c
+  ioapi.c
+  ioapi_buf.c
+  ioapi_mem.c
+  iowin32.c
+  unzip.c
+  zip.c
+  Generování kódu...
+  Zipper-static.vcxproj -> D:\gdrive\github\collector\zipper\build2\Debug\Zipper-staticd.lib

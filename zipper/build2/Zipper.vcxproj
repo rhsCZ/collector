@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6FCF090F-75DF-3DFE-AA91-78545B32659A}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Zipper</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\gdrive\github\collector\zipper\build2\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Zipper.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Zipperd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\gdrive\github\collector\zipper\build2\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Zipper.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Zipper</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\gdrive\github\collector\zipper\build2\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Zipper.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Zipper</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\gdrive\github\collector\zipper\build2\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Zipper.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Zipper</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\gdrive\github\collector\zipper\minizip;D:\gdrive\github\collector\zipper\zipper;D:\gdrive\github\collector\zipper;D:\gdrive\github\collector\zipper\build2;C:\Strawberry\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;USE_ZLIB;HAVE_AES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_MT;CMAKE_INTDIR="Debug";Zipper_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;USE_ZLIB;HAVE_AES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_MT;CMAKE_INTDIR=\"Debug\";Zipper_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\gdrive\github\collector\zipper\minizip;D:\gdrive\github\collector\zipper\zipper;D:\gdrive\github\collector\zipper;D:\gdrive\github\collector\zipper\build2;C:\Strawberry\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\gdrive\github\collector\zipper\minizip;D:\gdrive\github\collector\zipper\zipper;D:\gdrive\github\collector\zipper;D:\gdrive\github\collector\zipper\build2;C:\Strawberry\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd D:\gdrive\github\collector\zipper\build2
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E __create_def D:/gdrive/github/collector/zipper/build2/Zipper.dir/Debug/exports.def D:/gdrive/github/collector/zipper/build2/Zipper.dir/Debug//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>C:\Program Files (x86)\zlib\lib\zlibd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/gdrive/github/collector/zipper/build2/Debug/Zipperd.lib</ImportLibrary>
+      <ModuleDefinitionFile>D:/gdrive/github/collector/zipper/build2/Zipper.dir/Debug/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>D:/gdrive/github/collector/zipper/build2/Debug/Zipperd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\gdrive\github\collector\zipper\minizip;D:\gdrive\github\collector\zipper\zipper;D:\gdrive\github\collector\zipper;D:\gdrive\github\collector\zipper\build2;C:\Strawberry\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_ZLIB;HAVE_AES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_MT;CMAKE_INTDIR="Release";Zipper_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_ZLIB;HAVE_AES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_MT;CMAKE_INTDIR=\"Release\";Zipper_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\gdrive\github\collector\zipper\minizip;D:\gdrive\github\collector\zipper\zipper;D:\gdrive\github\collector\zipper;D:\gdrive\github\collector\zipper\build2;C:\Strawberry\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\gdrive\github\collector\zipper\minizip;D:\gdrive\github\collector\zipper\zipper;D:\gdrive\github\collector\zipper;D:\gdrive\github\collector\zipper\build2;C:\Strawberry\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd D:\gdrive\github\collector\zipper\build2
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E __create_def D:/gdrive/github/collector/zipper/build2/Zipper.dir/Release/exports.def D:/gdrive/github/collector/zipper/build2/Zipper.dir/Release//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>C:\Program Files (x86)\zlib\lib\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/gdrive/github/collector/zipper/build2/Release/Zipper.lib</ImportLibrary>
+      <ModuleDefinitionFile>D:/gdrive/github/collector/zipper/build2/Zipper.dir/Release/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>D:/gdrive/github/collector/zipper/build2/Release/Zipper.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\gdrive\github\collector\zipper\minizip;D:\gdrive\github\collector\zipper\zipper;D:\gdrive\github\collector\zipper;D:\gdrive\github\collector\zipper\build2;C:\Strawberry\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_ZLIB;HAVE_AES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_MT;CMAKE_INTDIR="MinSizeRel";Zipper_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_ZLIB;HAVE_AES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_MT;CMAKE_INTDIR=\"MinSizeRel\";Zipper_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\gdrive\github\collector\zipper\minizip;D:\gdrive\github\collector\zipper\zipper;D:\gdrive\github\collector\zipper;D:\gdrive\github\collector\zipper\build2;C:\Strawberry\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\gdrive\github\collector\zipper\minizip;D:\gdrive\github\collector\zipper\zipper;D:\gdrive\github\collector\zipper;D:\gdrive\github\collector\zipper\build2;C:\Strawberry\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd D:\gdrive\github\collector\zipper\build2
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E __create_def D:/gdrive/github/collector/zipper/build2/Zipper.dir/MinSizeRel/exports.def D:/gdrive/github/collector/zipper/build2/Zipper.dir/MinSizeRel//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>C:\Program Files (x86)\zlib\lib\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/gdrive/github/collector/zipper/build2/MinSizeRel/Zipper.lib</ImportLibrary>
+      <ModuleDefinitionFile>D:/gdrive/github/collector/zipper/build2/Zipper.dir/MinSizeRel/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>D:/gdrive/github/collector/zipper/build2/MinSizeRel/Zipper.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\gdrive\github\collector\zipper\minizip;D:\gdrive\github\collector\zipper\zipper;D:\gdrive\github\collector\zipper;D:\gdrive\github\collector\zipper\build2;C:\Strawberry\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_ZLIB;HAVE_AES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_MT;CMAKE_INTDIR="RelWithDebInfo";Zipper_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_ZLIB;HAVE_AES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_MT;CMAKE_INTDIR=\"RelWithDebInfo\";Zipper_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\gdrive\github\collector\zipper\minizip;D:\gdrive\github\collector\zipper\zipper;D:\gdrive\github\collector\zipper;D:\gdrive\github\collector\zipper\build2;C:\Strawberry\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\gdrive\github\collector\zipper\minizip;D:\gdrive\github\collector\zipper\zipper;D:\gdrive\github\collector\zipper;D:\gdrive\github\collector\zipper\build2;C:\Strawberry\c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd D:\gdrive\github\collector\zipper\build2
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E __create_def D:/gdrive/github/collector/zipper/build2/Zipper.dir/RelWithDebInfo/exports.def D:/gdrive/github/collector/zipper/build2/Zipper.dir/RelWithDebInfo//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>C:\Program Files (x86)\zlib\lib\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/gdrive/github/collector/zipper/build2/RelWithDebInfo/Zipper.lib</ImportLibrary>
+      <ModuleDefinitionFile>D:/gdrive/github/collector/zipper/build2/Zipper.dir/RelWithDebInfo/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>D:/gdrive/github/collector/zipper/build2/RelWithDebInfo/Zipper.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\gdrive\github\collector\zipper\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/gdrive/github/collector/zipper/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SD:/gdrive/github/collector/zipper -BD:/gdrive/github/collector/zipper/build2 --check-stamp-file D:/gdrive/github/collector/zipper/build2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CTest.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CTestTargets.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CTestUseLaunchers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCSourceRuns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckSourceRuns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckStructHasMember.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\DartConfiguration.tcl.in;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;D:\gdrive\github\collector\zipper\build2\CMakeFiles\3.19.0-rc1\CMakeCCompiler.cmake;D:\gdrive\github\collector\zipper\build2\CMakeFiles\3.19.0-rc1\CMakeCXXCompiler.cmake;D:\gdrive\github\collector\zipper\build2\CMakeFiles\3.19.0-rc1\CMakeRCCompiler.cmake;D:\gdrive\github\collector\zipper\build2\CMakeFiles\3.19.0-rc1\CMakeSystem.cmake;D:\gdrive\github\collector\zipper\zipper.pc.cmakein;D:\gdrive\github\collector\zipper\zipperConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\gdrive\github\collector\zipper\build2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/gdrive/github/collector/zipper/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SD:/gdrive/github/collector/zipper -BD:/gdrive/github/collector/zipper/build2 --check-stamp-file D:/gdrive/github/collector/zipper/build2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CTest.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CTestTargets.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CTestUseLaunchers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCSourceRuns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckSourceRuns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckStructHasMember.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\DartConfiguration.tcl.in;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;D:\gdrive\github\collector\zipper\build2\CMakeFiles\3.19.0-rc1\CMakeCCompiler.cmake;D:\gdrive\github\collector\zipper\build2\CMakeFiles\3.19.0-rc1\CMakeCXXCompiler.cmake;D:\gdrive\github\collector\zipper\build2\CMakeFiles\3.19.0-rc1\CMakeRCCompiler.cmake;D:\gdrive\github\collector\zipper\build2\CMakeFiles\3.19.0-rc1\CMakeSystem.cmake;D:\gdrive\github\collector\zipper\zipper.pc.cmakein;D:\gdrive\github\collector\zipper\zipperConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\gdrive\github\collector\zipper\build2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/gdrive/github/collector/zipper/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SD:/gdrive/github/collector/zipper -BD:/gdrive/github/collector/zipper/build2 --check-stamp-file D:/gdrive/github/collector/zipper/build2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CTest.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CTestTargets.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CTestUseLaunchers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCSourceRuns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckSourceRuns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckStructHasMember.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\DartConfiguration.tcl.in;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;D:\gdrive\github\collector\zipper\build2\CMakeFiles\3.19.0-rc1\CMakeCCompiler.cmake;D:\gdrive\github\collector\zipper\build2\CMakeFiles\3.19.0-rc1\CMakeCXXCompiler.cmake;D:\gdrive\github\collector\zipper\build2\CMakeFiles\3.19.0-rc1\CMakeRCCompiler.cmake;D:\gdrive\github\collector\zipper\build2\CMakeFiles\3.19.0-rc1\CMakeSystem.cmake;D:\gdrive\github\collector\zipper\zipper.pc.cmakein;D:\gdrive\github\collector\zipper\zipperConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\gdrive\github\collector\zipper\build2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/gdrive/github/collector/zipper/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SD:/gdrive/github/collector/zipper -BD:/gdrive/github/collector/zipper/build2 --check-stamp-file D:/gdrive/github/collector/zipper/build2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CTest.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CTestTargets.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CTestUseLaunchers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCSourceRuns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckSourceRuns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckStructHasMember.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\DartConfiguration.tcl.in;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;D:\gdrive\github\collector\zipper\build2\CMakeFiles\3.19.0-rc1\CMakeCCompiler.cmake;D:\gdrive\github\collector\zipper\build2\CMakeFiles\3.19.0-rc1\CMakeCXXCompiler.cmake;D:\gdrive\github\collector\zipper\build2\CMakeFiles\3.19.0-rc1\CMakeRCCompiler.cmake;D:\gdrive\github\collector\zipper\build2\CMakeFiles\3.19.0-rc1\CMakeSystem.cmake;D:\gdrive\github\collector\zipper\zipper.pc.cmakein;D:\gdrive\github\collector\zipper\zipperConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\gdrive\github\collector\zipper\build2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\gdrive\github\collector\zipper\zipper\CDirEntry.cpp" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\zipper\CDirEntry.h" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\zipper\defs.h" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\zipper\tools.cpp" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\zipper\tools.h" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\zipper\unzipper.cpp" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\zipper\unzipper.h" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\zipper\zipper.cpp" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\zipper\zipper.h" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\aes.h" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\aes_via_ace.h" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\aescrypt.c" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\aeskey.c" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\aesopt.h" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\aestab.c" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\aestab.h" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\brg_endian.h" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\brg_types.h" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\entropy.c" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\entropy.h" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\fileenc.c" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\fileenc.h" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\hmac.c" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\hmac.h" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\prng.c" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\prng.h" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\pwd2key.c" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\pwd2key.h" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\aes\sha1.c" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\aes\sha1.h" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\crypt.h" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\ioapi.c" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\ioapi.h" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\ioapi_buf.c" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\ioapi_buf.h" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\ioapi_mem.c" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\ioapi_mem.h" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\iowin32.c" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\iowin32.h" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\unzip.c" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\unzip.h" />
+    <ClCompile Include="D:\gdrive\github\collector\zipper\minizip\zip.c" />
+    <ClInclude Include="D:\gdrive\github\collector\zipper\minizip\zip.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\gdrive\github\collector\zipper\build2\ZERO_CHECK.vcxproj">
+      <Project>{5AA1A716-8F13-3A46-9713-03EBA8506278}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

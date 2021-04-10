@@ -1,0 +1,5 @@
+﻿  collector.cpp
+D:\gdrive\github\collector\collectorDlg.h(13,10): fatal error C1083: Nejde otevřít soubor zahrnout: zipper.h: No such file or directory
+  collectorDlg.cpp
+D:\gdrive\github\collector\collectorDlg.h(13,10): fatal error C1083: Nejde otevřít soubor zahrnout: zipper.h: No such file or directory
+  Generování kódu...

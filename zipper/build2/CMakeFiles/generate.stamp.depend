@@ -1,0 +1,59 @@
+# CMake generation dependency list for this directory.
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CMakeCCompiler.cmake.in
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CMakeDetermineCompileFeatures.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CMakeDetermineCompilerABI.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CMakeParseImplicitIncludeInfo.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CMakeParseImplicitLinkInfo.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CMakeTestCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CMakeTestCompilerCommon.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CPack.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CPackComponent.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CTest.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CTestTargets.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CTestUseLaunchers.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CheckCCompilerFlag.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CheckCSourceRuns.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CheckCompilerFlag.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CheckFunctionExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CheckSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CheckSourceRuns.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CheckStructHasMember.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CheckSymbolExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/CheckTypeSize.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/Compiler/MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/DartConfiguration.tcl.in
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/FindZLIB.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/Internal/FeatureTesting.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.19/Templates/CPackConfig.cmake.in
+D:/gdrive/github/collector/zipper/CMakeLists.txt
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/3.19.0-rc1/CMakeCCompiler.cmake
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/3.19.0-rc1/CMakeCXXCompiler.cmake
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/3.19.0-rc1/CMakeRCCompiler.cmake
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/3.19.0-rc1/CMakeSystem.cmake
+D:/gdrive/github/collector/zipper/zipper.pc.cmakein
+D:/gdrive/github/collector/zipper/zipperConfig.cmake.in

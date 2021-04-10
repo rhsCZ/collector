@@ -1,0 +1,15 @@
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/staticZipper.dir
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/dist.dir
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/Experimental.dir
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/check.dir
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/PACKAGE.dir
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/Zipper.dir
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/INSTALL.dir
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/Zipper-static.dir
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/Continuous.dir
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/Nightly.dir
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/NightlyMemoryCheck.dir
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/Zipper-test.dir
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/RUN_TESTS.dir
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/ALL_BUILD.dir
+D:/gdrive/github/collector/zipper/build2/CMakeFiles/ZERO_CHECK.dir

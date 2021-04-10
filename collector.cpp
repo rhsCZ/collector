@@ -9,8 +9,9 @@
 
 using namespace std;
 
-
-
+#ifdef COLLECT
+#define _AFXDLL
+#endif
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
@@ -113,3 +114,13 @@ BOOL colectApp::InitInstance()
 	return FALSE;
 }
 
+#ifdef COLLECT
+int _stdcall WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,int nShowCmd
+)
+{
+	colectApp app;
+	app.InitApplication();
+	app.InitInstance();
+	return 0;
+}
+#endif
