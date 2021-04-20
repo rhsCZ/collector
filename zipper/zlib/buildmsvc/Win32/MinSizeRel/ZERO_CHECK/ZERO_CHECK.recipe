@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\zipper\zlib\buildmsvc\MinSizeRel\ZERO_CHECK</FullPath>
+      <FullPath>D:\gdrive\github\collector\zipper\zlib\buildmsvc\MinSizeRel\ZERO_CHECK</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

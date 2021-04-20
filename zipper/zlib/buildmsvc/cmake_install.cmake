@@ -1,4 +1,4 @@
-# Install script for directory: D:/zipper/zlib
+# Install script for directory: D:/gdrive/github/collector/zipper/zlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,7 +42,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "D:/zipper/zlib/buildmsvc/Debug/zlibd.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "D:/gdrive/github/collector/zipper/zlib/buildmsvc/Debug/zlibd.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/zlib/lib/zlib.lib")
@@ -52,7 +52,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY O
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "D:/zipper/zlib/buildmsvc/Release/zlib.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "D:/gdrive/github/collector/zipper/zlib/buildmsvc/Release/zlib.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/zlib/lib/zlib.lib")
@@ -62,7 +62,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY O
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "D:/zipper/zlib/buildmsvc/MinSizeRel/zlib.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "D:/gdrive/github/collector/zipper/zlib/buildmsvc/MinSizeRel/zlib.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/zlib/lib/zlib.lib")
@@ -72,7 +72,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY O
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "D:/zipper/zlib/buildmsvc/RelWithDebInfo/zlib.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "D:/gdrive/github/collector/zipper/zlib/buildmsvc/RelWithDebInfo/zlib.lib")
   endif()
 endif()
 
@@ -86,7 +86,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/bin" TYPE SHARED_LIBRARY FILES "D:/zipper/zlib/buildmsvc/Debug/zlibd.dll")
+file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/bin" TYPE SHARED_LIBRARY FILES "D:/gdrive/github/collector/zipper/zlib/buildmsvc/Debug/zlibd.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/zlib/bin/zlib.dll")
@@ -96,7 +96,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/bin" TYPE SHARED_LIBRARY F
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/bin" TYPE SHARED_LIBRARY FILES "D:/zipper/zlib/buildmsvc/Release/zlib.dll")
+file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/bin" TYPE SHARED_LIBRARY FILES "D:/gdrive/github/collector/zipper/zlib/buildmsvc/Release/zlib.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/zlib/bin/zlib.dll")
@@ -106,7 +106,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/bin" TYPE SHARED_LIBRARY F
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/bin" TYPE SHARED_LIBRARY FILES "D:/zipper/zlib/buildmsvc/MinSizeRel/zlib.dll")
+file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/bin" TYPE SHARED_LIBRARY FILES "D:/gdrive/github/collector/zipper/zlib/buildmsvc/MinSizeRel/zlib.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/zlib/bin/zlib.dll")
@@ -116,7 +116,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/bin" TYPE SHARED_LIBRARY F
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/bin" TYPE SHARED_LIBRARY FILES "D:/zipper/zlib/buildmsvc/RelWithDebInfo/zlib.dll")
+file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/bin" TYPE SHARED_LIBRARY FILES "D:/gdrive/github/collector/zipper/zlib/buildmsvc/RelWithDebInfo/zlib.dll")
   endif()
 endif()
 
@@ -130,7 +130,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY FILES "D:/zipper/zlib/buildmsvc/Debug/zlibstaticd.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY FILES "D:/gdrive/github/collector/zipper/zlib/buildmsvc/Debug/zlibstaticd.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/zlib/lib/zlibstatic.lib")
@@ -140,7 +140,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY F
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY FILES "D:/zipper/zlib/buildmsvc/Release/zlibstatic.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY FILES "D:/gdrive/github/collector/zipper/zlib/buildmsvc/Release/zlibstatic.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/zlib/lib/zlibstatic.lib")
@@ -150,7 +150,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY F
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY FILES "D:/zipper/zlib/buildmsvc/MinSizeRel/zlibstatic.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY FILES "D:/gdrive/github/collector/zipper/zlib/buildmsvc/MinSizeRel/zlibstatic.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/zlib/lib/zlibstatic.lib")
@@ -160,7 +160,7 @@ file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY F
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY FILES "D:/zipper/zlib/buildmsvc/RelWithDebInfo/zlibstatic.lib")
+file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/lib" TYPE STATIC_LIBRARY FILES "D:/gdrive/github/collector/zipper/zlib/buildmsvc/RelWithDebInfo/zlibstatic.lib")
   endif()
 endif()
 
@@ -174,8 +174,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/include" TYPE FILE FILES
-    "D:/zipper/zlib/buildmsvc/zconf.h"
-    "D:/zipper/zlib/zlib.h"
+    "D:/gdrive/github/collector/zipper/zlib/buildmsvc/zconf.h"
+    "D:/gdrive/github/collector/zipper/zlib/zlib.h"
     )
 endif()
 
@@ -188,7 +188,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/share/man/man3" TYPE FILE FILES "D:/zipper/zlib/zlib.3")
+file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/share/man/man3" TYPE FILE FILES "D:/gdrive/github/collector/zipper/zlib/zlib.3")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -200,7 +200,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/share/pkgconfig" TYPE FILE FILES "D:/zipper/zlib/buildmsvc/zlib.pc")
+file(INSTALL DESTINATION "C:/Program Files (x86)/zlib/share/pkgconfig" TYPE FILE FILES "D:/gdrive/github/collector/zipper/zlib/buildmsvc/zlib.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -211,5 +211,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/zipper/zlib/buildmsvc/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/gdrive/github/collector/zipper/zlib/buildmsvc/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

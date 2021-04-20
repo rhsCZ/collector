@@ -56,6 +56,7 @@ BOOL colectApp::InitInstance()
 	InitCtrls.dwICC = ICC_WIN95_CLASSES;
 	InitCommonControlsEx(&InitCtrls);
 	*/
+	wchar_t sysdrv[10] = { L"\0" };
 	CWinApp::InitInstance();
 
 	//AfxEnableControlContainer();
@@ -75,9 +76,18 @@ BOOL colectApp::InitInstance()
 	// TODO: Tento řetězec byste měli upravit na nějakou vhodnou hodnotu,
 	// například název společnosti nebo organizace.
 	//SetRegistryKey(_T("Místní aplikace vygenerované průvodcem aplikací"));
-
+	
 	colectDlg dlg;
 	m_pMainWnd = &dlg;
+	GetEnvironmentVariableW(L"SystemDrive", sysdrv, sizeof(sysdrv)/2);
+	if (!wcscmp(sysdrv, L"X:"))
+	{
+		dlg.winpe = true;
+	}
+	else
+	{
+		dlg.winpe = false;
+	}
 	INT_PTR nResponse = dlg.DoModal();
 	if (nResponse == IDOK)
 	{
@@ -115,8 +125,7 @@ BOOL colectApp::InitInstance()
 }
 
 #ifdef COLLECT
-int _stdcall WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,int nShowCmd
-)
+int _stdcall WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,int nShowCmd)
 {
 	colectApp app;
 	app.InitApplication();

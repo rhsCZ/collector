@@ -271,6 +271,23 @@ void colectDlg::OnBnClickedGen()
 	ret = GetFileAttributes(windir);
 	prog->SetPos(10);
 	errorcode = GetLastError();
+	if (!wcscmp(drive, L"X:\\") && winpe == true)
+	{
+		wchar_t buftext[500] = { L"\0" };
+		swprintf_s(buftext, L"Nemůžeš nic extrahovat z Win PE!!");
+		MessageBox(buftext, L"ERROR!!", MB_OK | MB_ICONERROR | MB_APPLMODAL);
+		free(files);
+		free(filest);
+		free(windir);
+		free(evtx);
+		free(tempdir);
+		free(tempdir2);
+		free(buffer);
+		free(dmppath);
+		free(zipfile);
+		free(zipfile2);
+		goto end;
+	}
 	if (ret != FILE_ATTRIBUTE_DIRECTORY && ret == INVALID_FILE_ATTRIBUTES)
 	{
 		free(files);
@@ -360,7 +377,7 @@ continu:;
 		goto next;
 	}
 next:;
-	if (!wcscmp(drive, L"C:\\"))
+	if (!wcscmp(drive, L"C:\\") && winpe == false)
 	{
 		wchar_t logtmp[MAX_PATH] = { L"\0" };
 		swprintf_s(logtmp, L"%s\\System.evtx", tempdir);
@@ -380,6 +397,7 @@ next:;
 	}
 	else
 	{
+		
 		size_t converted = 0;
 		wchar_t logtmp[MAX_PATH] = { L"\0" };
 		wchar_t evt[MAX_PATH] = { L"\0" };

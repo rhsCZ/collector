@@ -23,7 +23,7 @@ class colectDlg : public CDialogEx
 // Konstrukce
 public:
 	colectDlg(CWnd* pParent = nullptr);	// standardní konstruktor
-
+	bool winpe = false;
 // Data dialogu
 #ifdef AFX_DESIGN_TIME
 	enum { IDD = IDD_COLLECTOR_DIALOG };
